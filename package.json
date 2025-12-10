@@ -1,0 +1,12 @@
+{
+  "name": "ds_design_pattern",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/main.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "node-fetch": "^3.3.2"
+  }
+}
