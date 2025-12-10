@@ -1,8 +1,9 @@
-import fetch from "node-fetch";
 
 class DiscordObservers {
     constructor() {
-        this.webhookUrl = process.env.DISCORD_WEBHOOK_URL;
+    
+
+        this.webhookUrl = "https://discordapp.com/api/webhooks/1448324026802900993/oQVq5bGMGaZWlxzNj63Rsj21KOn0KuayXTqr_lUUDD5jiDryE5DXzlrF7md9rTZZP_B4"
 
         if (!this.webhookUrl) {
             console.error(" Aucun webhook Discord défini dans .env !");
